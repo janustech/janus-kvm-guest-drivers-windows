@@ -47,7 +47,7 @@
     #define VENDOR_DESC_POSTFIX "\040" STRINGIFY(VER_OS) "\040for\040" STRINGIFY(VER_ARCH)
 #elif (JAN_RELEASE_N != 0)
     //experimental
-    #define VENDOR_DESC_PREFIX  "Experimental\040"
+    #define VENDOR_DESC_PREFIX  VENDOR_PREFIX
     #define VENDOR_DESC_POSTFIX "\040" STRINGIFY(VER_OS) "\040for\040" STRINGIFY(VER_ARCH)
 #elif (JAN_RELEASE_N == 0)
     //build
