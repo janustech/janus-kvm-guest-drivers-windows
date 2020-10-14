@@ -17,4 +17,3 @@ for %%P IN (%PROJS%) do (
 
 echo drivers (inf,cat,sys) are ready under vioserial\install\Win10\amd64
 echo Next step is to sign them
-pause
